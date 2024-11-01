@@ -58,8 +58,29 @@ input{
     cursor: pointer;
 }
 
-ul{
-    list-style: none;
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-item {
+    position: relative;
+    padding-right: 30px; /* Отступ для размещения кнопки */
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.delete-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 li {
